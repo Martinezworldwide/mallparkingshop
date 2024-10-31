@@ -37,3 +37,11 @@ iframe {
     border-radius: 5px;
     overflow: hidden;
 }
+
+section iframe {
+    width: 100%;
+    height: 100vh;
+    border: none;
+}
+
+
