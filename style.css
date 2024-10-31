@@ -40,8 +40,6 @@ iframe {
 
 section iframe {
     width: 100%;
-    height: 100vh;
+    min-height: 1500px; /* Adjust this height as needed */
     border: none;
 }
-
-
