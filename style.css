@@ -14,8 +14,9 @@ body {
     align-items: center;
 }
 
+/* Header styling */
 header {
-    background-color: #1b263b; /* Darker blue for header */
+    background-color: #1b263b;
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -25,14 +26,20 @@ header {
 
 header h1 {
     font-size: 2em;
-    margin-bottom: 5px;
-    color: #e0e1dd; /* Light gray for header text */
+    margin-bottom: 15px; /* Adds space below the title */
+    color: #e0e1dd;
 }
 
 header p {
     font-size: 1.2em;
     font-weight: 300;
-    color: #a6b1c4; /* Soft gray-blue for header description */
+    color: #a6b1c4;
+    margin-bottom: 20px; /* Adds space between description and buttons */
+}
+
+/* Navigation button styling */
+nav {
+    margin-bottom: 20px; /* Adds space below the buttons */
 }
 
 nav a {
@@ -40,18 +47,19 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     margin: 0 15px;
-    padding: 8px 15px;
+    padding: 10px 20px;
     border-radius: 5px;
-    background-color: #274060; /* Medium blue for nav links */
+    background-color: #274060;
     transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #1f354d; /* Darker blue on hover */
+    background-color: #1f354d;
 }
 
+/* Section styling */
 section {
-    background-color: #1e3a5f; /* Dark blue for sections */
+    background-color: #1e3a5f;
     padding: 30px;
     border-radius: 10px;
     max-width: 800px;
@@ -61,7 +69,7 @@ section {
 }
 
 section h2 {
-    color: #e0e1dd; /* Light gray for section headings */
+    color: #e0e1dd;
     font-size: 1.8em;
     margin-bottom: 15px;
 }
@@ -69,16 +77,17 @@ section h2 {
 section p {
     font-size: 1.1em;
     line-height: 1.6;
-    color: #c5c6c7; /* Light gray for section text */
+    color: #c5c6c7;
 }
 
+/* List styling */
 ul {
     list-style-type: none;
     margin: 20px 0;
 }
 
 ul li {
-    background-color: #274060; /* Medium blue for list items */
+    background-color: #274060;
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 10px;
@@ -86,12 +95,13 @@ ul li {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
+/* Iframe styling */
 iframe {
-    width: 100%;
-    height: 2000px;
-    border: 2px solid #1b263b; /* Dark blue border for iframe */
+    width: 100%; /* Sets iframe to full width */
+    max-width: 1000px; /* Adds a maximum width for desktop */
+    height: 80vh; /* Adjusts height for responsiveness */
+    border: 2px solid #1b263b;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-
