@@ -7,30 +7,32 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f0f8ff;
+    color: #ffffff;
+    background-color: #0d1b2a; /* Dark blue background */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 header {
-    background-color: #1e3a8a; /* Dark blue header */
+    background-color: #1b263b; /* Darker blue for header */
     color: #ffffff;
     padding: 20px;
     text-align: center;
     width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
     font-size: 2em;
     margin-bottom: 5px;
+    color: #e0e1dd; /* Light gray for header text */
 }
 
 header p {
     font-size: 1.2em;
     font-weight: 300;
+    color: #a6b1c4; /* Soft gray-blue for header description */
 }
 
 nav a {
@@ -38,16 +40,28 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     margin: 0 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #274060; /* Medium blue for nav links */
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #1f354d; /* Darker blue on hover */
 }
 
 section {
-    padding: 20px;
+    background-color: #1e3a5f; /* Dark blue for sections */
+    padding: 30px;
+    border-radius: 10px;
     max-width: 800px;
     text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 section h2 {
-    color: #1e3a8a;
+    color: #e0e1dd; /* Light gray for section headings */
     font-size: 1.8em;
     margin-bottom: 15px;
 }
@@ -55,6 +69,7 @@ section h2 {
 section p {
     font-size: 1.1em;
     line-height: 1.6;
+    color: #c5c6c7; /* Light gray for section text */
 }
 
 ul {
@@ -63,17 +78,19 @@ ul {
 }
 
 ul li {
-    background-color: #e0f7ff;
+    background-color: #274060; /* Medium blue for list items */
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #e0e1dd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 iframe {
+    width: 100%;
+    height: 2000px;
+    border: 2px solid #1b263b; /* Dark blue border for iframe */
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-
-/* Footer removed for iframe page to avoid blocking content */
